@@ -1,0 +1,619 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{4C5B6F0D-7B2A-434C-BAD2-264CFBEA2D78}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <StartupObject>Animation_Game.My.MyApplication</StartupObject>
+    <RootNamespace>Animation_Game</RootNamespace>
+    <AssemblyName>Animation Game</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <MyType>WindowsForms</MyType>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkProfile>Client</TargetFrameworkProfile>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DocumentationFile>Animation Game.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DocumentationFile>Animation Game.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionExplicit>On</OptionExplicit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionCompare>Binary</OptionCompare>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionStrict>Off</OptionStrict>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionInfer>On</OptionInfer>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.ServiceProcess" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Drawing" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Windows.Forms" />
+    <Import Include="System.Linq" />
+    <Import Include="System.Xml.Linq" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="About.Designer.vb">
+      <DependentUpon>About.vb</DependentUpon>
+    </Compile>
+    <Compile Include="About.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Help.Designer.vb">
+      <DependentUpon>Help.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Help.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Level 2.Designer.vb">
+      <DependentUpon>Level 2.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Level 2.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Level 3.Designer.vb">
+      <DependentUpon>Level 3.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Level 3.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Level 4.Designer.vb">
+      <DependentUpon>Level 4.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Level 4.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Level 5.Designer.vb">
+      <DependentUpon>Level 5.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Level 5.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Level 6.Designer.vb">
+      <DependentUpon>Level 6.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Level 6.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Level Selection.Designer.vb">
+      <DependentUpon>Level Selection.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Level Selection.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Main Menu.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Main Menu.Designer.vb">
+      <DependentUpon>Main Menu.vb</DependentUpon>
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="modAnimation.vb" />
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="Level 1.Designer.vb">
+      <DependentUpon>Level 1.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Level 1.vb">
+      <SubType>Form</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="About.resx">
+      <DependentUpon>About.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Help.resx">
+      <DependentUpon>Help.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Level 2.resx">
+      <DependentUpon>Level 2.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Level 3.resx">
+      <DependentUpon>Level 3.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Level 4.resx">
+      <DependentUpon>Level 4.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Level 5.resx">
+      <DependentUpon>Level 5.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Level 6.resx">
+      <DependentUpon>Level 6.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Level Selection.resx">
+      <DependentUpon>Level Selection.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Main Menu.resx">
+      <DependentUpon>Main Menu.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Level 1.resx">
+      <DependentUpon>Level 1.vb</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\alert_0.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\alert_1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\alert_2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\alert_3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\alert_4.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\fly_0.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\fly_1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\heal_0.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\heal_1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\heal_2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\jump_0.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ladder_0.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ladder_1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\prone_0.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\proneStab_0.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\proneStab_1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\rope_0.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\rope_1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\shoot1_0.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\shoot1_1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\shoot1_2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\shoot2_0.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\shoot2_1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\shoot2_2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\shoot2_3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\shoot2_4.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\shootF_0.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\shootF_1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\shootF_2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\sit_0.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\stabO1_0.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\stabO1_1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\stabO2_0.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\stabO2_1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\stabOF_0.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\stabOF_1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\stabOF_2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\stabT1_0.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\stabT1_1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\stabT1_2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\stabT2_0.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\stabT2_1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\stabT2_2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\stabTF_0.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\stabTF_1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\stabTF_2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\stabTF_3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\stand1_0.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\stand1_1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\stand1_2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\stand1_3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\stand1_4.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\stand2_0.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\stand2_1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\stand2_2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\stand2_3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\stand2_4.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\swingO1_0.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\swingO1_1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\swingO1_2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\swingO2_0.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\swingO2_1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\swingO2_2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\swingO3_0.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\swingO3_1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\swingO3_2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\swingOF_0.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\swingOF_1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\swingOF_2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\swingOF_3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\swingP1_0.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\swingP1_1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\swingP1_2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\swingP2_0.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\swingP2_1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\swingP2_2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\swingPF_0.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\swingPF_1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\swingPF_2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\swingPF_3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\swingT1_0.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\swingT1_1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\swingT1_2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\swingT2_0.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\swingT2_1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\swingT2_2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\swingT3_0.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\swingT3_1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\swingT3_2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\swingTF_0.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\swingTF_1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\swingTF_2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\swingTF_3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\walk1_0.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\walk1_1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\walk1_2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\walk1_3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\walk2_0.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\walk2_1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\walk2_2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\walk2_3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Main Menu Background.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Level 1 Background.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Red Teleporter.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Green Teleporter.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Blue Teleporter.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Yellow Teleporter.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Cave Entrance.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\teleporter_Blue11.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\teleporter_Green11.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\teleporter_Red11.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\teleporter_Yellow11.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\exit_1.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\teleporter_Blue12.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\teleporter_Green12.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\teleporter_Red12.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\teleporter_Yellow12.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ImmortalHD%27s Face.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Level 2 Background.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Lever.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\lever0.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\lever1.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Coin.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Level 4 Background.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Key.Up.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Key.W.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Key.A.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Key.D.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Key.Down.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Key.Left.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Key.Right.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Key.S.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Key.Space.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Level 5 Background.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Coin1.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Level 6 Background.jpg" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
