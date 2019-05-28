@@ -1,0 +1,20 @@
+C:\Users\cremolad\Desktop\Backup\Animation Game\Animation Game\bin\Debug\Animation Game.exe
+C:\Users\cremolad\Desktop\Backup\Animation Game\Animation Game\bin\Debug\Animation Game.pdb
+C:\Users\cremolad\Desktop\Backup\Animation Game\Animation Game\bin\Debug\Animation Game.xml
+C:\Users\cremolad\Desktop\Backup\Animation Game\Animation Game\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\cremolad\Desktop\Backup\Animation Game\Animation Game\obj\x86\Debug\Animation_Game.frmLevel1.resources
+C:\Users\cremolad\Desktop\Backup\Animation Game\Animation Game\obj\x86\Debug\Animation_Game.Resources.resources
+C:\Users\cremolad\Desktop\Backup\Animation Game\Animation Game\obj\x86\Debug\Animation_Game.frmMainMenu.resources
+C:\Users\cremolad\Desktop\Backup\Animation Game\Animation Game\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\Users\cremolad\Desktop\Backup\Animation Game\Animation Game\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\Users\cremolad\Desktop\Backup\Animation Game\Animation Game\obj\x86\Debug\Animation Game.exe
+C:\Users\cremolad\Desktop\Backup\Animation Game\Animation Game\obj\x86\Debug\Animation Game.xml
+C:\Users\cremolad\Desktop\Backup\Animation Game\Animation Game\obj\x86\Debug\Animation Game.pdb
+C:\Users\cremolad\Desktop\Backup\Animation Game\Animation Game\obj\x86\Debug\Animation_Game.frmLevel2.resources
+C:\Users\cremolad\Desktop\Backup\Animation Game\Animation Game\obj\x86\Debug\Animation_Game.frmLevelSelection.resources
+C:\Users\cremolad\Desktop\Backup\Animation Game\Animation Game\obj\x86\Debug\Animation_Game.frmLevel3.resources
+C:\Users\cremolad\Desktop\Backup\Animation Game\Animation Game\obj\x86\Debug\Animation_Game.frmLevel4.resources
+C:\Users\cremolad\Desktop\Backup\Animation Game\Animation Game\obj\x86\Debug\Animation_Game.frmHelp.resources
+C:\Users\cremolad\Desktop\Backup\Animation Game\Animation Game\obj\x86\Debug\Animation_Game.frmLevel5.resources
+C:\Users\cremolad\Desktop\Backup\Animation Game\Animation Game\obj\x86\Debug\Animation_Game.frmAbout.resources
+C:\Users\cremolad\Desktop\Backup\Animation Game\Animation Game\obj\x86\Debug\Animation_Game.frmLevel6.resources
