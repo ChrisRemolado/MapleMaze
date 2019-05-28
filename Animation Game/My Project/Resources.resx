@@ -1,0 +1,532 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="Lever" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Lever.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="shootF_0" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\shootF_0.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Key.A" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Key.A.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="swingO3_2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\swingO3_2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="stand2_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\stand2_1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="swingOF_0" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\swingOF_0.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="shoot1_2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\shoot1_2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="stand1_4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\stand1_4.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="stabT2_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\stabT2_1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Cave Entrance" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Cave Entrance.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="swingP2_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\swingP2_1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="stand1_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\stand1_1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="proneStab_0" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\proneStab_0.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="swingOF_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\swingOF_1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="walk1_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\walk1_1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="shoot2_2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\shoot2_2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Key.Right" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Key.Right.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="alert_4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\alert_4.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="swingT2_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\swingT2_1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Level 2 Background" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Level 2 Background.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Key.Space" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Key.Space.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="stabO1_0" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\stabO1_0.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Key.Left" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Key.Left.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="lever0" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\lever0.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="stabOF_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\stabOF_1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="shoot2_0" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\shoot2_0.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Level 1 Background" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Level 1 Background.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="stabTF_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\stabTF_1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="swingO2_2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\swingO2_2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="swingPF_0" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\swingPF_0.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="stabO2_0" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\stabO2_0.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="stabT1_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\stabT1_1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="shoot2_3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\shoot2_3.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ladder_0" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ladder_0.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="exit_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\exit_1.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="walk2_2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\walk2_2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="swingTF_2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\swingTF_2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="swingO3_0" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\swingO3_0.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="fly_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\fly_1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="stabTF_0" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\stabTF_0.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="walk1_3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\walk1_3.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="fly_0" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\fly_0.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="stand1_0" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\stand1_0.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="swingT1_2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\swingT1_2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="teleporter_Blue1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\teleporter_Blue11.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="stabT2_0" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\stabT2_0.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="stabO1_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\stabO1_1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="jump_0" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\jump_0.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Level 4 Background" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Level 4 Background.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="stand2_2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\stand2_2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="swingTF_3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\swingTF_3.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="teleporter_Green1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\teleporter_Green11.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="teleporter_Green11" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\teleporter_Green12.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="stabT2_2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\stabT2_2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="rope_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\rope_1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="rope_0" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\rope_0.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="sit_0" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\sit_0.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="swingOF_2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\swingOF_2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="swingP2_2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\swingP2_2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Green Teleporter" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Green Teleporter.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="swingT3_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\swingT3_1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="swingPF_3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\swingPF_3.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="stabTF_3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\stabTF_3.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="stabOF_0" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\stabOF_0.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Key.W" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Key.W.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="teleporter_Red11" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\teleporter_Red12.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="shootF_2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\shootF_2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Coin" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Coin.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="swingT1_0" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\swingT1_0.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ImmortalHD's Face" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ImmortalHD's Face.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="stand2_3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\stand2_3.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="swingT1_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\swingT1_1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="walk2_3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\walk2_3.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="swingT2_2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\swingT2_2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="alert_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\alert_1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="prone_0" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\prone_0.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="teleporter_Red1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\teleporter_Red11.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="stand2_4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\stand2_4.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Red Teleporter" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Red Teleporter.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="heal_0" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\heal_0.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="walk2_0" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\walk2_0.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="stand1_3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\stand1_3.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="swingP1_2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\swingP1_2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="swingO2_0" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\swingO2_0.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="swingPF_2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\swingPF_2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="stabTF_2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\stabTF_2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="swingO1_0" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\swingO1_0.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="proneStab_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\proneStab_1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Level 3 Background" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Level 3 Background.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Main Menu Background" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Main Menu Background.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="teleporter_Blue11" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\teleporter_Blue12.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="walk1_2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\walk1_2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="swingOF_3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\swingOF_3.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="heal_2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\heal_2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="swingO1_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\swingO1_1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="walk2_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\walk2_1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Coin1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Coin1.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="stabO2_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\stabO2_1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="walk1_0" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\walk1_0.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="heal_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\heal_1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="teleporter_Yellow11" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\teleporter_Yellow12.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="shoot1_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\shoot1_1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="alert_0" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\alert_0.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="stabOF_2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\stabOF_2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="stand1_2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\stand1_2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="swingT3_2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\swingT3_2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="swingO1_2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\swingO1_2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Yellow Teleporter" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Yellow Teleporter.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="shoot1_0" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\shoot1_0.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ladder_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ladder_1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="alert_3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\alert_3.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Key.Up" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Key.Up.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="shootF_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\shootF_1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="shoot2_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\shoot2_1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Key.Down" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Key.Down.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="stabT1_0" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\stabT1_0.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="swingT2_0" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\swingT2_0.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="shoot2_4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\shoot2_4.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="swingO3_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\swingO3_1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="teleporter_Yellow1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\teleporter_Yellow11.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="alert_2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\alert_2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="swingP1_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\swingP1_1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="swingP2_0" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\swingP2_0.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="lever1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\lever1.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="stand2_0" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\stand2_0.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Blue Teleporter" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Blue Teleporter.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Level 5 Background" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Level 5 Background.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="swingO2_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\swingO2_1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="swingTF_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\swingTF_1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="swingP1_0" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\swingP1_0.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Key.D" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Key.D.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="swingTF_0" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\swingTF_0.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Key.S" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Key.S.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="stabT1_2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\stabT1_2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="swingPF_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\swingPF_1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="swingT3_0" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\swingT3_0.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Level 6 Background" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Level 6 Background.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+</root>
